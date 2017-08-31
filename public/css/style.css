@@ -1,0 +1,25 @@
+@font-face {
+  font-family: roryfont;
+  src: url(../font/roryfont.ttf);
+}
+.rory_header {
+  padding: 24px;
+}
+
+.rory_header_title {
+  font-family: roryfont;
+  text-transform: uppercase;
+  transform: scaleX(1.35);
+  letter-spacing: 0.06rem;
+  text-align: center;
+}
+
+.video_holder {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+
