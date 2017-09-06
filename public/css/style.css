@@ -9,13 +9,27 @@
 .rfont {
   font-family: roryfont;
   text-transform: uppercase;
-  transform: scaleX(1.35);
 }
 
 .rory_header_title {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 0.06rem;
   text-align: center;
   font-size: 30px;
+  transform: scaleX(1.35);
+}
+
+.rory_subheader {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  letter-spacing: 0.06rem;
+  text-align: center;
+  font-size: 18px;
+  transform: scaleX(1.35);
 }
 
 .video_holder {
@@ -23,13 +37,53 @@
   margin-left: 10%;
   margin-right: 10%;
   align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_section {
+  display: inline;
+}
+
+.look {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 35px;
+}
+
+.look_text {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20%;
+  transform: scaleY(0.8);
+  font-size: 1.1rem;
+}
+
+.images {
+  font-size: 0;
+  width: 50%;
+  text-align: center;
+}
+.rory_lookbook_image {
+  width: 33%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .di {
   display: inline;
 }
 
-.look-list {
+.list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }

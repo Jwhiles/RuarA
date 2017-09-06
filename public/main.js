@@ -6,7 +6,6 @@ var app4 = new Vue({
     lookbook: [
       {
         description: 'Graphic cape in wool crepe, red heart boots in suede',
-        image: 'src',
         number: "001",
       },
       {
