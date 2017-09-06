@@ -23,6 +23,71 @@ var app4 = new Vue({
         image: 'src',
         number: "004",
       },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
+      {
+        description: 'Graphic cape in wool crepe, red heart boots in suede',
+        image: 'src',
+        number: "004",
+      },
     ]
   }
 })
