@@ -2,8 +2,16 @@
   font-family: roryfont;
   src: url(../font/roryfont.ttf);
 }
+.main_background {
+  background:
+    url(../images/Home_Page2.jpg) top center no-repeat,
+    url(../images/Home_Page3.jpg) top right no-repeat,
+    url(../images/Home_Page1.jpg) top left no-repeat;
+}
+
 .rory_header {
-  padding: 24px;
+  margin-top: 36px;
+  margin-bottom: 12px;
 }
 
 .rfont {
@@ -15,6 +23,8 @@
   width: 30%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   letter-spacing: 0.06rem;
   text-align: center;
   font-size: 28px;
@@ -40,14 +50,47 @@
   justify-content: space-around;
 }
 
+.collections_header {
+  font-size: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.collections_list {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.collection_list_item {
+  font-size: 30px;
+}
+    /* <ul class="collections_list"> */
+    /*   <li class="collection_list_item"><a class="menu_link" href="/001.html">001</a></li> */
+    /* </ul> */
+
 .menu {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .menu_section {
-  display: inline;
+  display: flex;
+  width: 30%;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_link:hover {
+  text-decoration: underline;
+}
+
+.menu_link:focus {
+  outline: none;
+  text-decoration: underline;
 }
 
 .look {
