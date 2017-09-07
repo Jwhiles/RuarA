@@ -31,7 +31,7 @@
             <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_2_3.jpg'"></img>
             <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_3_3.jpg'"></img>
           </div>
-          <p class="di look_text rfont">{{ look.description }}</p>
+          <p class="di look_text rfont">{{ look.description.join('\n') }}</p>
         </li>
       </ul>
     </div>
