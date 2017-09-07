@@ -64,9 +64,6 @@
 .collection_list_item {
   font-size: 30px;
 }
-    /* <ul class="collections_list"> */
-    /*   <li class="collection_list_item"><a class="menu_link" href="/001.html">001</a></li> */
-    /* </ul> */
 
 .menu {
   width: 100%;
@@ -82,6 +79,15 @@
 .menu_link {
   text-decoration: none;
   color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .menu_link:hover {

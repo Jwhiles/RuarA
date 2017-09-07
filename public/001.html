@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="rory_header">
-      <h1 class="rory_header_title rfont">Rory Andrew</h1>
+      <h1 class="rory_header_title rfont"><a class="link" href="main.html">Rory Andrew</a></h1>
     </header>
     <ul class="menu list">
       <div class="menu_section"> 
@@ -35,9 +35,19 @@
         <li class="look" v-for="(look, i) in lookbook">
           <p class="di look_text rfont">Look {{ look.number }}</p>
           <div class="images">
-            <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_1_3.jpg'"></img>
-            <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_2_3.jpg'"></img>
-            <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_3_3.jpg'"></img>
+            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            '_1_3.jpg'">
+              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) +
+            '_1_3.jpg'"></img>
+            </a>
+            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            '_2_3.jpg'">
+              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_2_3.jpg'"></img>
+            </a>
+            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            '_3_3.jpg'">
+              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_3_3.jpg'"></img>
+            </a>
           </div>
           <p class="di look_text rfont">{{ look.description.join('\n') }}</p>
         </li>
