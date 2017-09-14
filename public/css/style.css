@@ -69,13 +69,17 @@
 
 .menu {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .menu_section {
-  display: flex;
-  width: 30%;
+  @media (min-width: 600px) {
+    display: flex;
+    width: 30%;
+  }
 }
 
 .menu_link {
