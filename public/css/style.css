@@ -69,14 +69,15 @@
 
 .menu {
   width: 100%;
-  @media (min-width: 600px) {
+}
+
+@media (min-width: 600px) {
+  .menu {
     display: flex;
     justify-content: space-between;
   }
-}
-
-.menu_section {
-  @media (min-width: 600px) {
+  
+  .menu_section {
     display: flex;
     width: 30%;
   }
