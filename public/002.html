@@ -14,7 +14,7 @@
     <ul class="menu list">
       <div class="menu_section"> 
         <li class="rfont rory_subheader">
-          <a class="menu_link" href="/001.html">Collections</a>
+          <a class="menu_link" href="/002.html">Collections</a>
         </li>
         <li class="rfont rory_subheader">
           <a class="menu_link" href="/comingsoon.html">Online Store</a>
@@ -29,24 +29,24 @@
         </li>
       </div>
     </ul>
-    <div id="app-4">
-      <h2 class="rory_subheader rfont">Collection 001</h2>
+    <div id="app-2">
+      <h2 class="rory_subheader rfont">Collection 002</h2>
       <ul class="list">
         <li class="look" v-for="(look, i) in lookbook">
           <p class="di look_text rfont">Look {{ look.number }}</p>
           <div class="images">
-            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            <a target="_blank" :href="'images/collectionTwo/LOOK_' + (i + 1) +
             '_1_3.jpg'">
-              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) +
+              <img class="rory_lookbook_image" :src="'images/collectionTwo/LOOK_' + (i + 1) +
             '_1_3.jpg'"></img>
             </a>
-            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            <a target="_blank" :href="'images/collectionTwo/LOOK_' + (i + 1) +
             '_2_3.jpg'">
-              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_2_3.jpg'"></img>
+              <img class="rory_lookbook_image" :src="'images/collectionTwo/LOOK_' + (i + 1) + '_2_3.jpg'"></img>
             </a>
-            <a target="_blank" :href="'images/LOOK_' + (i + 1) +
+            <a target="_blank" :href="'images/collectionTwo/LOOK_' + (i + 1) +
             '_3_3.jpg'">
-              <img class="rory_lookbook_image" :src="'images/LOOK_' + (i + 1) + '_3_3.jpg'"></img>
+              <img class="rory_lookbook_image" :src="'images/collectionTwo/LOOK_' + (i + 1) + '_3_3.jpg'"></img>
             </a>
           </div>
           <p class="di look_text rfont">{{ look.description.join('\n') }}</p>
@@ -54,6 +54,6 @@
       </ul>
     </div>
   </body>
-  <script src="main.js"></script>
+  <script src="002.js"></script>
 </html>
 
