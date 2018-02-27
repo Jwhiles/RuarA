@@ -20,7 +20,7 @@ var app = new Vue({
       },
       {
         description: [
-          'HERRINGBONE COAT AND SKIRT SUIT ALL IN HARRIS TWEED',
+          'HERRINGBONE BUSTIER DRESS IN HARRIS TWEED.',
         ],
         number: '004',
       },
